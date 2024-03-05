@@ -88,3 +88,7 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+@keyframes color-shift-top {
+    0%, 100%
+    fill: rgb(13, 190, 107);
+}
