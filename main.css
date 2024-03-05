@@ -1,16 +1,15 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff"),
-        url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.ttf') format('truetype');
+    src: url("fonts/CondorVariable-VF-Edu.woff2")format("woff2"),
+        url('fonts/CondorVariable-VF-Edu.ttf') format('truetype');
 
-    font-family: 'Forma';
+    font-family: 'Condor Variable Regular';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
-    background-color: lightsteelblue;
-    font-family: 'Forma';
+    background-color: rgb(174, 172, 180);
+    font-family: 'Condor Variable Regular';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -44,12 +43,12 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
 }
 
 /* variable font animation */
 h3{
-    font-weight:20; 
+    font: weight 100px;; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
@@ -59,14 +58,14 @@ h3{
     0%, 100%{
         font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "opsz" 16, "wght" 400, "slnt" -13;
     }
     
 }
 /* variable font that changes on hover */
 .variable-font{
-    font-weight:1 ;
-    height:100vh;
+    font: weight 100px; ;
+    height: 400px;
     font-size: 10em;
     display:grid;
     place-content: center;
