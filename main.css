@@ -23,12 +23,14 @@
 }
 .second{
     margin-left:100px;
+    color: rgb(0, 255, 242);
 }
 .third{
     margin-left:200px;
 }
 .fourth{
     margin-left:300px;
+    color: rgb(0, 255, 242);
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -58,6 +60,21 @@ grid-area: v;
 
 .alphabet {
 grid-area: a;
+}
+
+#download {
+grid-area: v;
+<style>
+a:link 
+  color: rgb(255, 255, 255);
+
+  a:hover {
+    color: rgb(0, 255, 242);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
 }
 
 /* CSS for the footer */
