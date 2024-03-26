@@ -8,8 +8,27 @@
     }
     
     body{
-    background-color: rgb(174, 172, 180);
+    background-color: rgb(0, 0, 0);
     font-family: 'Condor Variable Regular';
+    color: rgb(255, 255, 255);
+}
+.hero{
+    padding-top: 40px;
+    background-image: url("condorherobackground.png");
+    background-repeat: no-repeat;
+  background-size: 1600px 650px;
+}
+.first{
+    margin-right:20px;
+}
+.second{
+    margin-left:100px;
+}
+.third{
+    margin-left:200px;
+}
+.fourth{
+    margin-left:300px;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -18,38 +37,40 @@
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
-.page-wrapper{
+
+.two-section{
 display: grid;
 grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
-    "a a";
+    "h v";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
 .alphabet {
 grid-area: a;
 }
-}
+
 /* CSS for the footer */
 footer{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 /* variable font animation */
 h3{
-    font: weight 100px;; 
+    font-weight: 100px; 
     text-align: center;
+    margin-top:0px;
+    margin-bottom:0px;
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
@@ -67,6 +88,7 @@ h3{
     font: weight 100px; ;
     height: 400px;
     font-size: 10em;
+    color: rgb(255, 255, 255);
     display:grid;
     place-content: center;
     margin: 0;
@@ -75,6 +97,7 @@ h3{
     transition: 
         font-weight 500ms,
         font-variation-settings 3s;
+        
 }
 
 .variable-font:hover{
@@ -88,7 +111,7 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-@keyframes color-shift-top {
+/* @keyframes color-shift-top {
     0%, 100%
     fill: rgb(13, 190, 107);
-}
+} */
