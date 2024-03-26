@@ -64,18 +64,30 @@ grid-area: a;
 
 #download {
 grid-area: v;
-<style>
-a:link 
-  color: rgb(255, 255, 255);
+}
 
-  a:hover {
-    color: rgb(0, 255, 242);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
+<style>
+a:link{
+  color: rgb(255, 255, 255);
+  background-color: transparent
+  text-decoration: none
 
 }
+
+a:visited{
+  color: rgb(255, 255, 255);
+  background-color: transparent
+  text-decoration: none
+
+}
+
+a:hover{ 
+    color: rgb(0, 255, 242);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+  
 
 /* CSS for the footer */
 footer{
@@ -89,14 +101,16 @@ h3{
     margin-top:0px;
     margin-bottom:0px;
     font-size: 5em;
-    animation: weightChange 7s infinite;
+    animation: weightChange 5s infinite;
+
+
 }
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 3, "wght" 25, "slnt" 6;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 400, "slnt" -13;
+    50%{font-variation-settings: "opsz" 40, "wght" 1200, "slnt" 13;
     }
     
 }
