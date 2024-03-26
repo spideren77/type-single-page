@@ -42,7 +42,7 @@
 
 .two-section{
 display: grid;
-grid-gap: 25px;
+grid-gap: 150px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
@@ -65,7 +65,9 @@ grid-area: a;
 #download {
 grid-area: v;
 }
-
+h1 {
+    font-size: 20px;
+}
 <style>
 a:link{
   color: rgb(255, 255, 255);
